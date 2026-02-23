@@ -149,10 +149,23 @@ const  books = getBook(2);
 //const title =books.title;
 //const author = books.author;
 
-const{title,author,pages} = books;
+const{title,author,pages,genres} = books;
 
-console.log(author,title,pages);
+console.log(author,title,pages,genres);
 
 title;
 
 books;
+//   click in the file where we want to start quokka,ctrl+p command pallet search quokka,start on current file
+//in array sequence matters in object key matters,in object variable name should be exactly same as key in array you can define any name for variable,in object value of key will be assign to variable without any sequence. in array first element will be assign to 1st variable.
+genres
+
+//const primary =genres[0];
+//const secondary = genres[1];
+
+//write in destructring
+
+const [primary,secondary] = genres;
+
+console.log(primary,secondary);
+
